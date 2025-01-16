@@ -1,1 +1,12 @@
-<p>meals works!</p>
+<section>
+  <div class="container">
+    <div class="tabs w-50 mx-auto bg-dark  my-3 d-flex justify-content-center py-2 rounded-pill">
+      <a routerLink="seafood" routerLinkActive="bg-info text-dark rounded-pill" class="p-2 text-secondary">Seafood</a>
+      <a routerLink="pasta" routerLinkActive="bg-info text-dark rounded-pill" class="p-2 text-secondary">Pasta</a>
+      <a routerLink="breakfast" routerLinkActive="bg-info text-dark rounded-pill"
+        class="p-2 text-secondary">Breakfast</a>
+    </div>
+    <router-outlet></router-outlet>
+
+  </div>
+</section>
